@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(139, 137, 137); 
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: outset;
+    justify-content: center;
+}
+.Heading-Container{
+    text-align: center;
+    /* text-decoration-color: honeydew; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, serif(red serif); */
+    font-style:sans-serif;
+    text-shadow: 5px 5px 5px #0c0b0b;
+    font: weight 800%; ;
+    margin-top: 20px;
+    background: linear-gradient(to bottom, rgb(180, 170, 170) 10%, rgb(29, 28, 28) 100%);
+    font-family: "Sofia", sans-serif;
+  font-size: 30px;
+
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap:2em;
+    padding:2em;
+    margin: 0 auto;
+    
+
+}
+
+.container{
+    background-color: rgb(18, 75, 133);
+    border: rgb(76, 72, 173);
+    padding: 2em;
+    border-bottom-left-radius: 25%;
+    border-top-right-radius: 25% ;
+    flex-wrap: wrap;
+   color: rgb(5, 1, 1);
+   border:double;
+   width: 500px;
+   height: 500px;
+   gap:2em;font-size: small;
+   font-family: "Sofia", sans-serif;
+   font-weight: bold;
+  font-size: 30px;
+  text-shadow: 5px 5px 5px #0c0b0b;
+  box-shadow:  15px 15px 15px #3f1fce;
+
+   /* padding: 2px; */
+}
+h1:hover{
+    background-color: rgb(187, 189, 181);
+   
+    box-sizing: content-box;
+}
+.icon:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  
+}
+.blue{
+color: blue;
+font-family: Copperplate, Papyrus, fantasy;
+}
+.orange{
+    color: orangered;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+title{
+    font-size: medium;
+    color: rgb(5, 1, 1);
+}
+.details{
+    font-size:medium;
+   font-family: Lorem ipsum dolor sit amet;
+
+}
+.btn:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
